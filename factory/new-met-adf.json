@@ -2,9 +2,9 @@
 	"name": "new-met-adf",
 	"properties": {
 		"globalParameters": {
-			"pramtest": {
+			"newparm": {
 				"type": "string",
-				"value": "dad"
+				"value": "dafd"
 			}
 		}
 	},
