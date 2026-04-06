@@ -1,0 +1,25 @@
+{
+	"name": "new-met-adf",
+	"properties": {
+		"globalParameters": {
+			"testparm": {
+				"type": "string",
+				"value": "778884"
+			},
+			"netwt2324": {
+				"type": "string",
+				"value": "adfdsdfdfs"
+			},
+			"ttere": {
+				"type": "string",
+				"value": "dfafddsf"
+			}
+		}
+	},
+	"location": "koreacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d8de4ca0-0b59-452a-8958-9403b95b7a20",
+		"tenantId": "77f2311b-0a53-4bea-88a7-488a3af6c1ca"
+	}
+}
