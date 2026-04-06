@@ -5,6 +5,10 @@
 			"testpram": {
 				"type": "string",
 				"value": "adfddfs"
+			},
+			"dafdd": {
+				"type": "string",
+				"value": "adfafd"
 			}
 		}
 	},
