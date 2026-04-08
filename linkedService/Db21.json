@@ -6,7 +6,7 @@
 		"type": "Db2",
 		"typeProperties": {
 			"connectionString": "server=192.168.10.100:50000;database=xmeta;username=db2inst1;authenticationtype=Basic",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIxNTAyMTU5NS04N2U1LTQ4MTQtYTc2Mi03ZDQ3ZThkYjJlMzUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5Y2M4MmFlNy0yMGI3LTQ2NjAtODdiMy01YTI4MzFmNzM5NjEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "integrationRuntime1",
