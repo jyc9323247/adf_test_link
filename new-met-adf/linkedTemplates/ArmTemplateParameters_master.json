@@ -5,8 +5,14 @@
 		"factoryName": {
 			"value": "new-met-adf"
 		},
-		"default_properties_p1_value": {
-			"value": "dafd"
+		"AzureDatabricks1_accessToken": {
+			"value": ""
+		},
+		"AzureDatabricksDeltaLake1_accessToken": {
+			"value": ""
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "0406-081700-gc53o2at"
 		},
 		"containerUri": {
 			"value": ""
