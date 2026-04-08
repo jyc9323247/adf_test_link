@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-test-23413"
+		},
+		"Db21_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage1_properties_typeProperties_serviceEndpoint": {
+			"value": "https://ab3.blob.core.windows.net/"
+		},
+		"integrationRuntime1_properties_typeProperties_linkedInfo_resourceId": {
+			"value": "/subscriptions/aca1fe2c-ac27-4d3a-84d7-47ae36fb1be7/resourcegroups/new-rg/providers/Microsoft.DataFactory/factories/new-met-adf/integrationruntimes/integrationRuntime1"
+		}
+	}
+}
