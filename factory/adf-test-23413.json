@@ -1,0 +1,9 @@
+{
+	"name": "adf-test-23413",
+	"location": "koreacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4575e95b-20b3-499c-9ba1-16a7a9d74e5a",
+		"tenantId": "77f2311b-0a53-4bea-88a7-488a3af6c1ca"
+	}
+}

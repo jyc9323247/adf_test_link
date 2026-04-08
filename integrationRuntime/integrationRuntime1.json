@@ -1,6 +1,12 @@
 {
 	"name": "integrationRuntime1",
 	"properties": {
-		"type": "SelfHosted"
+		"type": "SelfHosted",
+		"typeProperties": {
+			"linkedInfo": {
+				"resourceId": "/subscriptions/aca1fe2c-ac27-4d3a-84d7-47ae36fb1be7/resourcegroups/new-rg/providers/Microsoft.DataFactory/factories/new-met-adf/integrationruntimes/integrationRuntime1",
+				"authorizationType": "Rbac"
+			}
+		}
 	}
 }
