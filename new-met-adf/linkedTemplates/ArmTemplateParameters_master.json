@@ -5,14 +5,11 @@
 		"factoryName": {
 			"value": "new-met-adf"
 		},
-		"AzureDatabricks1_accessToken": {
+		"Db21_connectionString": {
 			"value": ""
 		},
-		"AzureDatabricksDeltaLake1_accessToken": {
-			"value": ""
-		},
-		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
-			"value": "0406-081700-gc53o2at"
+		"AzureBlobStorage1_properties_typeProperties_serviceEndpoint": {
+			"value": "https://ab3.blob.core.windows.net/"
 		},
 		"containerUri": {
 			"value": ""

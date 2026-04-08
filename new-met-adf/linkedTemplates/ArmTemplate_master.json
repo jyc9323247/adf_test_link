@@ -7,17 +7,13 @@
 			"metadata": "Data Factory 이름",
 			"defaultValue": "new-met-adf"
 		},
-		"AzureDatabricks1_accessToken": {
+		"Db21_connectionString": {
 			"type": "secureString",
-			"metadata": "'AzureDatabricks1'의 'accessToken'에 대한 보안 문자열"
+			"metadata": "'Db21'의 'connectionString'에 대한 보안 문자열"
 		},
-		"AzureDatabricksDeltaLake1_accessToken": {
-			"type": "secureString",
-			"metadata": "'AzureDatabricksDeltaLake1'의 'accessToken'에 대한 보안 문자열"
-		},
-		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+		"AzureBlobStorage1_properties_typeProperties_serviceEndpoint": {
 			"type": "string",
-			"defaultValue": "0406-081700-gc53o2at"
+			"defaultValue": "https://ab3.blob.core.windows.net/"
 		},
 		"containerUri": {
 			"type": "string",
@@ -46,14 +42,11 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
-					"AzureDatabricks1_accessToken": {
-						"value": "[parameters('AzureDatabricks1_accessToken')]"
+					"Db21_connectionString": {
+						"value": "[parameters('Db21_connectionString')]"
 					},
-					"AzureDatabricksDeltaLake1_accessToken": {
-						"value": "[parameters('AzureDatabricksDeltaLake1_accessToken')]"
-					},
-					"AzureDatabricks1_properties_typeProperties_existingClusterId": {
-						"value": "[parameters('AzureDatabricks1_properties_typeProperties_existingClusterId')]"
+					"AzureBlobStorage1_properties_typeProperties_serviceEndpoint": {
+						"value": "[parameters('AzureBlobStorage1_properties_typeProperties_serviceEndpoint')]"
 					}
 				}
 			},
